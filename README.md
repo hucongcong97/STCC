@@ -1,7 +1,7 @@
 # STCC
 consensus clustering enhances spatial domain detection for spatial transcriptomics data
 
-![image-20240213115617896](STCC\STCC.png)
+![image-20240213115617896](STCC/STCC.png)
 
 # 1. Installing Environment
 
@@ -17,7 +17,7 @@ The input of STCC is a matrix composed of label vectors of different clustering 
 df = pd.read_csv('test data.csv',index_col=0)
 ```
 
-![image-20240213124443246](STCC\data display.png)
+![image-20240213124443246](STCC/data display.png)
 
 # 3. Running STCC
 
