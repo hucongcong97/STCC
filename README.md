@@ -22,7 +22,7 @@ df = pd.read_csv('test data.csv',index_col=0)
 # 3. Running STCC
 
 ```
-n_clusters = 12   # true number of categories
+n_clusters = 15   # true number of categories
 method = 'Averaged-based' # 'Onehot-based','NMF-based','wNMF-based'
 seed = 2024 # random seed
 labels_consensus = consensus_summary(df,n_clusters,methods=method,seed=seed)
