@@ -6,7 +6,7 @@ consensus clustering enhances spatial domain detection for spatial transcriptomi
 # 1. Installation
 
 ```
-pip install STCC
+pip install STCC==1.0.2
 ```
 
 # 2. Data preparation
