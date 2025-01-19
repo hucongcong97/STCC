@@ -183,5 +183,5 @@ Below, we provide the code for running the baseline algorithms.
 
 Use STCC to integrate the results of the above baseline algorithms.
 
-* [Tutorial](https://github.com/hucongcong97/STCC/blob/main/tutorial/RUN_STCC.ipynb)
+* [Tutorial](tutorial/RUN_STCC.ipynb)
 
