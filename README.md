@@ -171,17 +171,17 @@ df = pd.read_csv('STCC/test data.csv',index_col=0)
 
 Below, we provide the code for running the baseline algorithms.
 
-* [Analysis of Mouse mPFC data with `BASS`](https://github.com/hucongcong97/STCC/tree/main/tutorial/RUN_BASS.R)
+* [Analysis of Mouse mPFC data with `BASS`](https://github.com/hucongcong97/STCC/blob/main/tutorial/RUN_BASS.R)
 
-* [Analysis of Mouse mPFC data with `BayesSpace`](https://github.com/hucongcong97/STCC/tree/main/tutorial/RUN_BayesSpace.R)
-* [Analysis of Mouse mPFC data with `SEDR`](https://github.com/hucongcong97/STCC/tree/main/tutorial/RUN_SEDR.py)
-* [Analysis of Mouse mPFC data with `SpaGCN`](https://github.com/hucongcong97/STCC/tree/main/tutorial/RUN_SpaGCN.ipynb)
-* [Analysis of Mouse mPFC data with `SpatialPCA`](https://github.com/hucongcong97/STCC/tree/main/tutorial/RUN_SpatialPCA.R)
-* [Analysis of Mouse mPFC data with `STAGATE`](https://github.com/hucongcong97/STCC/tree/main/tutorial/RUN_STAGATE.ipynb)
+* [Analysis of Mouse mPFC data with `BayesSpace`](https://github.com/hucongcong97/STCC/blob/main/tutorial/RUN_BayesSpace.R)
+* [Analysis of Mouse mPFC data with `SEDR`](https://github.com/hucongcong97/STCC/blob/main/tutorial/RUN_SEDR.py)
+* [Analysis of Mouse mPFC data with `SpaGCN`](https://github.com/hucongcong97/STCC/blob/main/tutorial/RUN_SpaGCN.ipynb)
+* [Analysis of Mouse mPFC data with `SpatialPCA`](https://github.com/hucongcong97/STCC/blob/main/tutorial/RUN_SpatialPCA.R)
+* [Analysis of Mouse mPFC data with `STAGATE`](https://github.com/hucongcong97/STCC/blob/main/tutorial/RUN_STAGATE.ipynb)
 
 # 4. Running STCC
 
 Use STCC to integrate the results of the above baseline algorithms.
 
-* [Tutorial](https://github.com/hucongcong97/STCC/tree/main/tutorial/RUN_STCC.ipynb)
+* [Tutorial](https://github.com/hucongcong97/STCC/blob/main/tutorial/RUN_STCC.ipynb)
 
