@@ -1,3 +1,7 @@
+#-------------------------------------------------------------------------------
+# This tutorial is for analyzing mouse mPFC data using BayesSpace
+#-------------------------------------------------------------------------------
+
 library(BayesSpace)
 library(SingleCellExperiment)
 

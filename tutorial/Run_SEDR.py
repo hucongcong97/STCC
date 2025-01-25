@@ -1,3 +1,8 @@
+#-------------------------------------------------------------------------------
+# This tutorial is for analyzing mouse mPFC data using SEDR
+#-------------------------------------------------------------------------------
+# Note: This code should be in the same directory as the progress and src folders.
+
 import os
 import torch
 import argparse
@@ -88,9 +93,9 @@ os.chdir(data_root)
 save_fold = os.path.join(data_root, '../result/SEDR/')
 
 # ################## Load data
-ids_list = ['20180419_BZ9_control'] # ['20180417_BZ5_control','20180419_BZ9_control','20180424_BZ14_control']
+ids_list = ['20180417_BZ5_control','20180419_BZ9_control','20180424_BZ14_control']
 
-for cluster_number in [11]: # np.arange(10,21,1)
+for cluster_number in np.arange(10,21,1):
     print(cluster_number)
     with open(f"../result/SEDR/result_SEDR_k={cluster_number}.txt", "w") as f:
         f.write("sample\tseed\tari_value\n")
@@ -142,6 +147,7 @@ for cluster_number in [11]: # np.arange(10,21,1)
                 # sc.pl.spatial(adata_sedr, img_key="hires", color=['SEDR_leiden'])
                 # plt.savefig(os.path.join(params.save_path, f"SEDR_leiden_plot_{seed}.jpg"), bbox_inches='tight', dpi=300)
 
+                # Record cluster labels
                 df[str(seed)] = adata_sedr.obs['SEDR_leiden']
                 seed += 1
 
@@ -151,4 +157,5 @@ for cluster_number in [11]: # np.arange(10,21,1)
                 f.write(f"{str(ids)}\t{str(seed)}\t{str(ari_value)}\n")
                 print(f'seed = {seed},ari = {ari_value}')
 
+            # Save the results
             df.to_csv(os.path.join(params.save_path, f"{ids}_k={cluster_number}.csv"), sep='\t', index=False)

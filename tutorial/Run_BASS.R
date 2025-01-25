@@ -1,3 +1,8 @@
+#-------------------------------------------------------------------------------
+# This tutorial is for analyzing mouse mPFC data using BASS
+#-------------------------------------------------------------------------------
+
+
 library(BASS)
 library(Seurat)
 library(tidyverse)
